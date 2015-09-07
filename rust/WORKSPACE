@@ -1,0 +1,203 @@
+new_git_repository(
+    name = "bitflags",
+    remote = "https://github.com/rust-lang/bitflags.git",
+    commit = "9c93fa6b58f700019c0db4f0297cec71f35d6ce0",
+    build_file = "bitflags.BUILD",
+)
+
+new_git_repository(
+    name = "conduit_mime_types",
+    remote = "https://github.com/conduit-rust/mime-types.git",
+    commit = "533132764eaf675528e1731c6e53dbf00effca28",
+    build_file = "conduit_mime_types.BUILD",
+)
+
+new_git_repository(
+    name = "cookie",
+    remote = "https://github.com/alexcrichton/cookie-rs.git",
+    commit = "b34c18604569c19084ec9dceb5a66116bdf32616",
+    build_file = "cookie.BUILD",
+)
+
+new_git_repository(
+    name = "error",
+    remote = "https://github.com/reem/rust-error.git",
+    commit = "8876a05ed24e86051bdfc0ed07ec525b61c1f5a2",
+    build_file = "error.BUILD",
+)
+
+new_git_repository(
+    name = "httparse",
+    remote = "https://github.com/seanmonstar/httparse.git",
+    commit = "69e4389555ce193ffa9a81ecfcc734bb75d0db8b",
+    build_file = "httparse.BUILD",
+)
+
+new_git_repository(
+    name = "hyper",
+    remote = "https://github.com/hyperium/hyper.git",
+    tag = "v0.5.2",
+    build_file = "hyper.BUILD",
+)
+
+new_git_repository(
+    name = "iron",
+    remote = "https://github.com/iron/iron.git",
+    commit = "db16d26d10dd55f843c131e6e83a4faa702f6e4b",
+    build_file = "iron.BUILD",
+)
+
+new_git_repository(
+    name = "lazy_static",
+    remote = "https://github.com/Kimundi/lazy-static.rs.git",
+    commit = "94dda0a4837b3e34b3e56b3f72eddb8cabd76c16",
+    build_file = "lazy_static.BUILD",
+)
+
+new_git_repository(
+    name = "libc",
+    remote = "https://github.com/rust-lang/libc.git",
+    commit = "916642f0b5b83febe5bee89973564820d8a7ca36",
+    build_file = "libc.BUILD",
+    init_submodules = 1,
+)
+
+new_git_repository(
+    name = "log",
+    remote = "https://github.com/rust-lang/log.git",
+    commit = "c33b2a9564f014d7d460f731e90ac8d8b3d20bdd",
+    build_file = "log.BUILD",
+)
+
+new_git_repository(
+    name = "mime",
+    remote = "https://github.com/hyperium/mime.rs.git",
+    commit = "db0734286ca55c76b212b0d646003c5bb644da9f",
+    build_file = "mime.BUILD",
+)
+
+new_git_repository(
+    name = "modifier",
+    remote = "https://github.com/reem/rust-modifier",
+    commit = "7f4ab916cf04a9d7c19b9d532b8c6e0740f203a8",
+    build_file = "modifier.BUILD",
+)
+
+new_git_repository(
+    name = "num_cpus",
+    remote = "https://github.com/seanmonstar/num_cpus",
+    commit = "145dbf21f4ff9290ec3ea9aa227638d7a46d13e6",
+    build_file = "num_cpus.BUILD",
+)
+
+new_git_repository(
+    name = "openssl",
+    remote = "https://github.com/sfackler/rust-openssl",
+    tag = "v0.6.2",
+    build_file = "openssl.BUILD",
+)
+
+new_git_repository(
+    name = "plugin",
+    remote = "https://github.com/reem/rust-plugin",
+    commit = "189024bfe1cace7c916c3e50f17c136a7e7c8e08",
+    build_file = "plugin.BUILD",
+)
+
+new_git_repository(
+    name = "rust-std-candidates",
+    remote = "https://github.com/SimonSapin/rust-std-candidates",
+    commit = "17ef3b614ed9823dfa601fd582b68a734006ecd0",
+    build_file = "rust-std-candidates.BUILD",
+)
+
+new_git_repository(
+    name = "pico_sys",
+    remote = "https://github.com/reem/rust-pico-sys",
+    commit = "b6e446452ac564361990de6bf5bb3d4a44c0ec64",
+    build_file = "pico_sys.BUILD",
+)
+
+new_git_repository(
+    name = "picohttpparser",
+    remote = "https://github.com/h2o/picohttpparser",
+    commit = "296dc4317717a4933912d18f8359cafc18a8b297",
+    build_file = "picohttpparser.BUILD",
+)
+
+new_git_repository(
+    name = "rustc_serialize",
+    remote = "https://github.com/rust-lang/rustc-serialize",
+    commit = "32340909d13979773e0d9985cbbb6ab697335e44",
+    build_file = "rustc_serialize.BUILD",
+)
+
+new_git_repository(
+    name = "time",
+    remote = "https://github.com/rust-lang/time.git",
+    commit = "fb82feb5563b652554556f4f3e6407fd723ecd24",
+    build_file = "time.BUILD",
+)
+
+new_git_repository(
+    name = "traitobject",
+    remote = "https://github.com/reem/rust-traitobject.git",
+    commit = "7251ae1e941b7e61cb26bffbccf5ddf6058f482a",
+    build_file = "traitobject.BUILD",
+)
+
+new_git_repository(
+    name = "typeable",
+    remote = "https://github.com/reem/rust-typeable.git",
+    commit = "99e26e44905fc61211e6ad4f910eb9652b747289",
+    build_file = "typeable.BUILD",
+)
+
+new_git_repository(
+    name = "typemap",
+    remote = "https://github.com/reem/rust-typemap",
+    commit = "806ef63ef69ff3e6dd220ca8cd3804a28bbeae7c",
+    build_file = "typemap.BUILD",
+)
+
+new_git_repository(
+    name = "unicase",
+    remote = "https://github.com/seanmonstar/unicase",
+    commit = "cb5ba168cf092a5c54775181c89035a521a1ec70",
+    build_file = "unicase.BUILD",
+)
+
+new_git_repository(
+    name = "unsafe_any",
+    remote = "https://github.com/reem/rust-unsafe-any",
+    commit = "412dad4cd604234f9116dd658cfbc3655c0a4f3c",
+    build_file = "unsafe_any.BUILD",
+)
+
+new_git_repository(
+    name = "url",
+    remote = "https://github.com/servo/rust-url",
+    tag = "v0.2.35",
+    build_file = "url.BUILD",
+)
+
+new_git_repository(
+    name = "void",
+    remote = "https://github.com/reem/rust-void",
+    commit = "f728134b57ca75051427e2d05ed82242fd7daeed",
+    build_file = "void.BUILD",
+)
+
+new_http_archive(
+    name = "rust-linux-x86_64",
+    url = "https://static.rust-lang.org/dist/rust-1.2.0-x86_64-unknown-linux-gnu.tar.gz",
+    sha256 = "2311420052e06b3e698ce892924ec40890a8ff0499902e7fc5350733187a1531",
+    build_file = "tools/build_rules/rust/rust-linux-x86_64.BUILD",
+)
+
+new_http_archive(
+    name = "rust-darwin-x86_64",
+    url = "https://static.rust-lang.org/dist/rust-1.2.0-x86_64-apple-darwin.tar.gz",
+    sha256 = "0d471e672fac5a450ae5507b335fda2efc0b22ea9fb7f215c6a9c466dafa2661",
+    build_file = "tools/build_rules/rust/rust-darwin-x86_64.BUILD",
+)

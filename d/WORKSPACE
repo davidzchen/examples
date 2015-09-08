@@ -1,0 +1,55 @@
+#new_http_archive(
+#    name = "memutils",
+#    url = "http://code.dlang.org/packages/memutils/0.4.1.zip"
+#    sha256 = "364ea386002f964fa0b685313ef1e23eae354fd91913a8c4ba7adfb9a54010d4",
+#    build_file = "third_party/memutils.BUILD",
+#)
+
+new_git_repository(
+    name = "deimos-libevent",
+    remote = "https://github.com/s-ludwig/libevent.git",
+    tag = "v2.0.1+2.0.16",
+    build_file = "deimos-libevent.BUILD",
+)
+
+new_http_archive(
+    name = "deimos-openssl",
+    url = "http://code.dlang.org/packages/openssl/1.1.4+1.0.1g.zip",
+    sha256 = "3a13694d935f7490f373390232fc6cac80c790b479d515944bdf4583a59e3393",
+    build_file = "deimos-openssl.BUILD",
+)
+
+#new_http_archive(
+#    name = "libev",
+#    url = "http://code.dlang.org/packages/libev/5.0.0+4.04.zip'",
+#    sha256 = "fb4432adae5e59efa25ed45f9a71488355f96fcc38eb47df5dac9881d7c36476",
+#    build_file = "third_party/libev.BUILD",
+#)
+
+#new_http_archive(
+#    name = "libasync",
+#    url = "http://code.dlang.org/packages/libasync/0.7.5.zip",
+#    sha256 = "e18dc4cf3647acb18ac388b2a49e455d2cd94a291e3e2db548fc083940f1614f",
+#    build_file = "third_party/libasync.BUILD",
+#)
+
+new_git_repository(
+    name = "vibe-d",
+    remote = "https://github.com/rejectedsoftware/vibe.d.git",
+    commit = "5d6d608882f55575c2ffc13cf7df21d49015f9ab",
+    build_file = "vibe-d.BUILD",
+)
+
+new_http_archive(
+    name = "dmd-linux-x86_64",
+    url = "http://downloads.dlang.org/releases/2.x/2.067.1/dmd.2.067.1.linux.zip",
+    sha256 = "a5014886773853b4a42df19ee9591774cf281d33fbc511b265df30ba832926cd",
+    build_file = "tools/build_defs/d/dmd.BUILD",
+)
+
+new_http_archive(
+    name = "dmd-darwin-x86_64",
+    url = "http://downloads.dlang.org/releases/2.x/2.067.1/dmd.2.067.1.osx.zip",
+    sha256 = "aa76bb83c38b3f7495516eb08977fc9700c664d7a945ba3ac3c0004a6a8509f2",
+    build_file = "tools/build_defs/d/dmd.BUILD",
+)
